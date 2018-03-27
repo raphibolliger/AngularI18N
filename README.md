@@ -1,4 +1,5 @@
 # AngularI18N
+<<<<<<< HEAD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
 
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+Demo projekt for Angular localization with i18n
+>>>>>>> 37d4939c71aa75cb5978792c6dcbc65b7bb8bf90
