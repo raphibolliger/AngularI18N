@@ -4,6 +4,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 import { AppComponent } from './app.component';
+import { NavComponent } from './nav/nav.component';
+import { NavModule } from './nav/nav.module';
 
 
 @NgModule({
@@ -12,7 +14,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot(),
+    NavModule,
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

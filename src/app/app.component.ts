@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-  now = new Date();
+  title: string = 'AngularLocalization';
+  now: Date = new Date();
+  minutes: number = 0;
+  gender: string;
 }
