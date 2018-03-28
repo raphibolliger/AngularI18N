@@ -9,5 +9,5 @@ export class AppComponent {
   title: string = 'AngularLocalization';
   now: Date = new Date();
   minutes: number = 0;
-  gender: string;
+  gender: string = "o";
 }

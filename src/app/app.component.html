@@ -25,6 +25,16 @@
 
   <hr>
 
+  <div class="card">
+    <div class="card-body">
+      <p class="card-text" i18n>
+        Since your last registration on {{now | date:'shortDate'}}, {{minutes}} new articles have been published.
+      </p>
+    </div>
+  </div>
+
+  <hr>
+
   <div class="card-group">
     <div class="card">
       <div class="card-body">
@@ -86,8 +96,7 @@
       <div class="card-body">
         <h5 class="card-title" i18n>Plurals</h5>
         <p class="card-text">
-          <span i18n>Updated {minutes, plural, =0 {just now} =1 {one minute ago} other {{{minutes}} minutes ago}}</span>
-
+          <span i18n>Updated { minutes, plural, =0 {just now} =1 {one minute ago} other { {{minutes}} minutes ago } }</span>
         </p>
         <button class="btn btn-sm btn-primary" (click)="minutes = minutes - 1;">-</button>
         <span i18n>minutes: {{ minutes }}</span>
@@ -98,11 +107,11 @@
       <div class="card-body">
         <h5 class="card-title" i18n>Alternative texts</h5>
         <p class="card-text">
-            <span i18n>The author is <strong style="color:cornflowerblue;">{gender, select, male {male} female {female} other {other}}</strong></span>
+            <span i18n>The author is {gender, select, m {male} f {female} o {other}}</span>
         </p>
-        <button class="btn btn-sm btn-primary" (click)="gender = 'female'" i18n>Female</button>
-        <button class="btn btn-sm btn-primary" (click)="gender = 'male'" i18n>Male</button>
-        <button class="btn btn-sm btn-primary" (click)="gender = 'other'" i18n>Other</button>
+        <button class="btn btn-sm btn-primary" (click)="gender = 'f'" i18n>Female</button>
+        <button class="btn btn-sm btn-primary" (click)="gender = 'm'" i18n>Male</button>
+        <button class="btn btn-sm btn-primary" (click)="gender = 'o'" i18n>Other</button>
       </div>
     </div>
   </div>
