@@ -78,7 +78,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2eb6671f8d1299f1c00e65bcd5f2fe5d321b2095" datatype="html">
@@ -90,7 +90,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">45</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7d102c62fa0e217415c47142bb0408b1ae3f8dff" datatype="html">
@@ -102,7 +102,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4056a76e7a710ab32285892a58d66f2d1a927796" datatype="html">
@@ -114,7 +114,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="93ee0ca7a17f1cb07e4ee5e13b2f0ac3998a2b85" datatype="html">
@@ -125,12 +125,38 @@
           <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="e3e67f52822b04126c04a35b20f4ea42e490c5cf" datatype="html">
+        <source>
+        Since your last registration on <x id="INTERPOLATION" equiv-text="{{now | date:&apos;shortDate&apos;}}"/>, <x id="INTERPOLATION_1" equiv-text="{{minutes}}"/> new articles have been published.
+      </source>
+        <target>Seit deiner letzen Anmeldung am <x id="INTERPOLATION" equiv-text="{{now | date:&apos;shortDate&apos;}}"/> sind <x id="INTERPOLATION_1" equiv-text="{{minutes}}"/> neue Artikel erschienen.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="582d61f2b07f5343dd45b9b69e0bf8d501507b40" datatype="html">
         <source>Plurals</source>
         <target>Mehrzahl</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1680b2090516bc3f42c183398464faa1584942cd" datatype="html">
+        <source>Updated <x id="ICU" equiv-text="{ minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
+        <target>Zuletzt aktualisiert: <x id="ICU" equiv-text="{ minutes, plural, =0 {...} =1 {...} other {...}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="341ef4dc1986d94fb27ab5b8fa6fd322d1850c05" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago } }</source>
+        <target>{VAR_PLURAL, plural, =0 {jetzt} =1 {vor einer Minute} other { vor <x id="INTERPOLATION" equiv-text="{{minutes}}"/> Minuten } }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">99</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cc72650021150e2af23c2c91b6e3617460597c87" datatype="html">
@@ -138,7 +164,7 @@
         <target>Minuten: <x id="INTERPOLATION" equiv-text="{{ minutes }}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">93</context>
+          <context context-type="linenumber">102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9bc672f987ca89be23584a3a4cd3d9a3c56d31d7" datatype="html">
@@ -146,7 +172,23 @@
         <target>Alternative Texte</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52515023fc70c216ef291086c1962ff135a9fe13" datatype="html">
+        <source>The author is <x id="ICU" equiv-text="{gender, select, m {...} f {...} o {...}}"/></source>
+        <target>Der Author ist <x id="ICU" equiv-text="{gender, select, m {...} f {...} o {...}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4e6fd3f2bb3477e8ad2088f03257f6e1b8b515a5" datatype="html">
+        <source>{VAR_SELECT, select, m {male} f {female} o {other} }</source>
+        <target>{VAR_SELECT, select, m {Männlich} f {Weiblich} o {Anders} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">110</context>
         </context-group>
       </trans-unit>
       <trans-unit id="18f3bafdc69b800737e303bc1cb0753bd9dd3f32" datatype="html">
@@ -154,7 +196,7 @@
         <target>Weiblich</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">103</context>
+          <context context-type="linenumber">112</context>
         </context-group>
       </trans-unit>
       <trans-unit id="097b5dfee5665aa0f7daba8b696acecde6445474" datatype="html">
@@ -162,7 +204,7 @@
         <target>Männlich</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">104</context>
+          <context context-type="linenumber">113</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c2a9de3714f5767b174d0424bc8abe2dc37acc41" datatype="html">
@@ -170,12 +212,8 @@
         <target>Weitere</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/app.component.ts</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">114</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="54f29f9a6da150fc7c4fcd0b7e6d9a1b0314fd35">
-        <source>Here are some links to help you start: </source>
-        <target>Hier sind weiter Informationen die das Starten mit Angular vereinfachen: </target>
       </trans-unit>
       <trans-unit id="1e9a15da9ecb3574be8b466c285ed4aca1d89e4b">
         <source>
@@ -184,6 +222,10 @@
         <target>
 Willkommen in <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
  </target>
+      </trans-unit>
+      <trans-unit id="54f29f9a6da150fc7c4fcd0b7e6d9a1b0314fd35">
+        <source>Here are some links to help you start: </source>
+        <target>Hier sind weiter Informationen die das Starten mit Angular vereinfachen: </target>
       </trans-unit>
     </body>
   </file>
