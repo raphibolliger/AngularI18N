@@ -1,3 +1,5 @@
+[//]: # (ng build --aot --prod --i18nFile=src/locale/messages.de.xlf --i18nFormat=xlf --locale=de-CH --op docs/de  --base-href=/AngularI18N/de/)
+
 # Angular localization with i18n
 Demo project for Angular localization with i18n. Clone this project and install all dependencies for a working playgorund.
 Visit the live demo at https://raphibolliger.github.io/AngularI18N/
@@ -13,8 +15,30 @@ Place the angular i18n attribute on every element wich should be translated.
 ```html
 <p class="card-text" i18n>Hi, {{userName}}</p>
 ```
+Your html template files will have the base langauge.
 
 ## Extract translation file
 Use the CLI command
 `ng xi18n --i18nFormat=xlf2 --outputPath=src/locale --outFile=messages.xlf´ to extract all marked elements to a translation file.
 Send this to your translator or import it to a translation service.
+
+I used the online service [OneSky](https://www.oneskyapp.com/) to translate my `.xlf` files.
+
+## Add translation file
+After translation add a new file for each language to the ´locale´ folder.
+There is no need for a naming convention, you have to specify each file for a build in the requested language.
+
+## Build app with language file and location
+You must build your app separatly for each language.
+Use the following CLI command to build your app in the base language and locale (en-US)
+`ng build --aot --op dist/en`
+
+Use the following CLI command to build your app in a specific language and locale
+`ng build --aot --i18nFile=src/locale/messages.de.xlf --i18nFormat=xlf --locale=de-CH --op dist/de`
+
+It is possible to build your app with the same language files for different locales.
+For example you could build a de-CH and a de-DE version with the same language file.
+
+`--aot` marks the build as AOT (Ahed of Time). It's also possible to build your application as JIT (Just in Time), then it will be builded in the browser before bootstrapping.
+If you will use i18n translation with JIT compilation you have to define some additional imports and options in `app.module.ts`.
+
