@@ -18,26 +18,26 @@ Place the angular i18n attribute on every element wich should be translated.
 ```html
 <p class="card-text" i18n>Hi, {{userName}}</p>
 ```
-Your html template files will have the base langauge.
+Your html template files will represent the base langauge of the application.
 
 ## Extract translation file
 Use the CLI command
-`ng xi18n --i18nFormat=xlf2 --outputPath=src/locale --outFile=messages.xlf´ to extract all marked elements to a translation file.
+```ng xi18n --i18nFormat=xlf2 --outputPath=src/locale --outFile=messages.xlf``` to extract all marked elements to a translation file.
 Send this to your translator or import it to a translation service.
 
 I used the online service [OneSky](https://www.oneskyapp.com/) to translate my `.xlf` files.
 
 ## Add translation file
-After translation add a new file for each language to the ´locale´ folder.
+After translation add a new file for each language to the `locale` folder.
 There is no need for a naming convention, you have to specify each file for a build in the requested language.
 
 ## Build app with language file and location
-You must build your app separatly for each language.
+Build your app separatly for each language.  
 Use the following CLI command to build your app in the base language and locale (en-US)
-`ng build --aot --op dist/en`
+```ng build --aot --op dist/en```
 
 Use the following CLI command to build your app in a specific language and locale
-`ng build --aot --i18nFile=src/locale/messages.de.xlf --i18nFormat=xlf --locale=de-CH --op dist/de`
+```ng build --aot --i18nFile=src/locale/messages.de.xlf --i18nFormat=xlf --locale=de-CH --op dist/de```
 
 It is possible to build your app with the same language files for different locales.
 For example you could build a de-CH and a de-DE version with the same language file.
