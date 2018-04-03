@@ -49,20 +49,19 @@
         <source>Localizable content</source>
       </segment>
     </unit>
-    <unit id="387009621084598243">
+    <unit id="8916640526492925392">
       <notes>
-        <note category="location">app/app.component.ts:11,14</note>
+        <note category="location">app/app.component.ts:11,13</note>
       </notes>
       <segment>
         <source>
-        With i18n you have a wide range of options to localize your application. Angular i18n gives you tooling to localize the following
-        parts of your application.
+        With i18n you have a wide range of options to localize your application.
       </source>
       </segment>
     </unit>
     <unit id="2998706768553236213">
       <notes>
-        <note category="location">app/app.component.ts:16</note>
+        <note category="location">app/app.component.ts:15</note>
       </notes>
       <segment>
         <source>Texts</source>
@@ -70,8 +69,8 @@
     </unit>
     <unit id="739880801667335279">
       <notes>
-        <note category="location">app/app.component.ts:17</note>
-        <note category="location">app/app.component.ts:51</note>
+        <note category="location">app/app.component.ts:16</note>
+        <note category="location">app/app.component.ts:50</note>
       </notes>
       <segment>
         <source>Dates</source>
@@ -79,8 +78,8 @@
     </unit>
     <unit id="2441730191018504834">
       <notes>
-        <note category="location">app/app.component.ts:18</note>
-        <note category="location">app/app.component.ts:65</note>
+        <note category="location">app/app.component.ts:17</note>
+        <note category="location">app/app.component.ts:64</note>
       </notes>
       <segment>
         <source>Numbers</source>
@@ -88,8 +87,8 @@
     </unit>
     <unit id="2981199509539433202">
       <notes>
-        <note category="location">app/app.component.ts:19</note>
-        <note category="location">app/app.component.ts:93</note>
+        <note category="location">app/app.component.ts:18</note>
+        <note category="location">app/app.component.ts:92</note>
       </notes>
       <segment>
         <source>Percentages</source>
@@ -97,24 +96,24 @@
     </unit>
     <unit id="8298612418414367990">
       <notes>
-        <note category="location">app/app.component.ts:20</note>
-        <note category="location">app/app.component.ts:79</note>
+        <note category="location">app/app.component.ts:19</note>
+        <note category="location">app/app.component.ts:78</note>
       </notes>
       <segment>
         <source>Currencies</source>
       </segment>
     </unit>
-    <unit id="1917792320188564425">
+    <unit id="7286240338396968119">
       <notes>
-        <note category="location">app/app.component.ts:22</note>
+        <note category="location">app/app.component.ts:21</note>
       </notes>
       <segment>
-        <source>You are also able to handle plural forms of words and alternative texts of images and other html components.</source>
+        <source>You are also able to handle e.g. plurals or genders in the ICU format.</source>
       </segment>
     </unit>
     <unit id="2056631932006399349">
       <notes>
-        <note category="location">app/app.component.ts:31</note>
+        <note category="location">app/app.component.ts:30</note>
       </notes>
       <segment>
         <source>Hi, <ph id="0" equiv="INTERPOLATION" disp="{{userName}}"/></source>
@@ -122,7 +121,7 @@
     </unit>
     <unit id="7485225664468696657">
       <notes>
-        <note category="location">app/app.component.ts:32,34</note>
+        <note category="location">app/app.component.ts:31,33</note>
       </notes>
       <segment>
         <source>
@@ -132,7 +131,7 @@
     </unit>
     <unit id="1608265421710498494">
       <notes>
-        <note category="location">app/app.component.ts:40</note>
+        <note category="location">app/app.component.ts:39</note>
       </notes>
       <segment>
         <source>Show warning</source>
@@ -140,7 +139,7 @@
     </unit>
     <unit id="1241601933561969840">
       <notes>
-        <note category="location">app/app.component.ts:107</note>
+        <note category="location">app/app.component.ts:106</note>
       </notes>
       <segment>
         <source>Plurals</source>
@@ -148,7 +147,7 @@
     </unit>
     <unit id="7588173386937377936">
       <notes>
-        <note category="location">app/app.component.ts:109</note>
+        <note category="location">app/app.component.ts:108</note>
       </notes>
       <segment>
         <source>Updated <ph id="0" equiv="ICU" disp="{ minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
@@ -156,7 +155,7 @@
     </unit>
     <unit id="4955505026013922830">
       <notes>
-        <note category="location">app/app.component.ts:109</note>
+        <note category="location">app/app.component.ts:108</note>
       </notes>
       <segment>
         <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<ph id="0" equiv="INTERPOLATION" disp="{{minutes}}"/> minutes ago } }</source>
@@ -164,7 +163,7 @@
     </unit>
     <unit id="3341620386068751829">
       <notes>
-        <note category="location">app/app.component.ts:112</note>
+        <note category="location">app/app.component.ts:111</note>
       </notes>
       <segment>
         <source>minutes: <ph id="0" equiv="INTERPOLATION" disp="{{ minutes }}"/></source>
@@ -172,7 +171,7 @@
     </unit>
     <unit id="9090585929284576114">
       <notes>
-        <note category="location">app/app.component.ts:118</note>
+        <note category="location">app/app.component.ts:117</note>
       </notes>
       <segment>
         <source>Alternative texts</source>
@@ -180,7 +179,7 @@
     </unit>
     <unit id="6832649236577346393">
       <notes>
-        <note category="location">app/app.component.ts:120</note>
+        <note category="location">app/app.component.ts:119</note>
       </notes>
       <segment>
         <source>The author is <ph id="0" equiv="ICU" disp="{gender, select, m {...} f {...} o {...}}"/></source>
@@ -188,7 +187,7 @@
     </unit>
     <unit id="9131825302281938693">
       <notes>
-        <note category="location">app/app.component.ts:120</note>
+        <note category="location">app/app.component.ts:119</note>
       </notes>
       <segment>
         <source>{VAR_SELECT, select, m {male} f {female} o {other} }</source>
@@ -196,7 +195,7 @@
     </unit>
     <unit id="5667840900782067941">
       <notes>
-        <note category="location">app/app.component.ts:122</note>
+        <note category="location">app/app.component.ts:121</note>
       </notes>
       <segment>
         <source>Female</source>
@@ -204,7 +203,7 @@
     </unit>
     <unit id="8012344910054029733">
       <notes>
-        <note category="location">app/app.component.ts:123</note>
+        <note category="location">app/app.component.ts:122</note>
       </notes>
       <segment>
         <source>Male</source>
@@ -212,7 +211,7 @@
     </unit>
     <unit id="8693603235657020323">
       <notes>
-        <note category="location">app/app.component.ts:124</note>
+        <note category="location">app/app.component.ts:123</note>
       </notes>
       <segment>
         <source>Other</source>

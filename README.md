@@ -9,7 +9,7 @@ Visit the live demo at https://raphibolliger.github.io/AngularI18N/
 
 # Localizing workflow
 
-## Mark elements
+## Mark elements use pipes
 
 Place the angular i18n attribute on every element wich should be translated.
 ```html
@@ -19,6 +19,19 @@ Place the angular i18n attribute on every element wich should be translated.
 <p class="card-text" i18n>Hi, {{userName}}</p>
 ```
 Your html template files will represent the base langauge of the application.
+
+To localize dates, numbers, percentages and currencies use the built in pipes from angular.
+```html
+<p class="card-text">{{ now | date:'fullDate' }}</p>
+```
+
+Detailed information of all pipes are available at the official angular documentation
+
+- Dates: https://angular.io/api/common/DatePipe
+- Numbers: https://angular.io/api/common/DecimalPipe
+- Percentages: https://angular.io/api/common/PercentPipe
+- Currencies: https://angular.io/api/common/CurrencyPipe
+
 
 ## Extract translation file
 Use the CLI command
@@ -55,8 +68,8 @@ If you will use i18n translation with JIT compilation you have to define some ad
 ## Deploy
 
 You need a routing or redirecting logic on your server to serve the right langauge version of your app.  
-The live demo use diffrent sub-direcotries to serve a diffrente langauge.
+The live demo use different sub-direcotries to serve a different langauge.
 
 # Documentation and help
-A complete guide for i18n can be found at the official angular documentation  
+A complete guide and more examples for i18n can be found at the official angular documentation  
 https://angular.io/guide/i18n
