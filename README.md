@@ -1,4 +1,7 @@
+[//]: # (ng build --aot --prod --op docs/en  --base-href=/AngularI18N/en/)
 [//]: # (ng build --aot --prod --i18nFile=src/locale/messages.de.xlf --i18nFormat=xlf --locale=de-CH --op docs/de  --base-href=/AngularI18N/de/)
+[//]: # (ng build --aot --prod --locale=it --op docs/fr  --base-href=/AngularI18N/fr/)
+[//]: # (ng build --aot --prod --locale=it --op docs/it  --base-href=/AngularI18N/it/)
 
 # Angular localization with i18n
 Demo project for Angular localization with i18n. Clone this project and install all dependencies for a working playgorund.
