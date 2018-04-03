@@ -36,7 +36,7 @@ Detailed information of all pipes are available at the official angular document
 ## Extract translation file
 Use the CLI command
 ```
-ng xi18n --i18nFormat=xlf2 --outputPath=src/locale --outFile=messages.xlf
+ng xi18n --i18nFormat=xlf --outputPath=src/locale --outFile=messages.xlf
 ```
 to extract all marked elements to a translation file.
 Send this to your translator or import it to a translation service.

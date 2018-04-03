@@ -1,221 +1,209 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
-  <file original="ng.template" id="ngi18n">
-    <unit id="5866254605255506989">
-      <notes>
-        <note category="location">app/nav/nav.component.ts:4</note>
-      </notes>
-      <segment>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="a0843de0a64adcc7ee6a946408b6876cd8abdcae" datatype="html">
         <source>English</source>
-      </segment>
-    </unit>
-    <unit id="1858110241312746425">
-      <notes>
-        <note category="location">app/nav/nav.component.ts:5</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eb64c04afa79183b2eb12447491c9761e17c2c67" datatype="html">
         <source>German</source>
-      </segment>
-    </unit>
-    <unit id="7633754075223722162">
-      <notes>
-        <note category="location">app/nav/nav.component.ts:6</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8293a584b57b870aca184a23bb8039c829acc4cf" datatype="html">
         <source>French</source>
-      </segment>
-    </unit>
-    <unit id="2935232983274991580">
-      <notes>
-        <note category="location">app/nav/nav.component.ts:7</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="89b1f695bdcf25218fed3734264bd84c811a4934" datatype="html">
         <source>Italian</source>
-      </segment>
-    </unit>
-    <unit id="8580508299747767593">
-      <notes>
-        <note category="location">app/app.component.ts:9</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/nav/nav.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="823f90200c86fc038d9d6fe64f39d53ca9d2622f" datatype="html">
         <source>Angular i18n localization</source>
-      </segment>
-    </unit>
-    <unit id="7262400496513727409">
-      <notes>
-        <note category="location">app/app.component.ts:10</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f39e7b9561f81f3fab6ba80b7861f985890fec4f" datatype="html">
         <source>Localizable content</source>
-      </segment>
-    </unit>
-    <unit id="8916640526492925392">
-      <notes>
-        <note category="location">app/app.component.ts:11,13</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="503bef5cb1e541dcf7f25db68faaa6a9c635e14a" datatype="html">
         <source>
         With i18n you have a wide range of options to localize your application.
       </source>
-      </segment>
-    </unit>
-    <unit id="2998706768553236213">
-      <notes>
-        <note category="location">app/app.component.ts:15</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0232ef5d4967a67ae0adf7dfc9124efd3e83003b" datatype="html">
         <source>Texts</source>
-      </segment>
-    </unit>
-    <unit id="739880801667335279">
-      <notes>
-        <note category="location">app/app.component.ts:16</note>
-        <note category="location">app/app.component.ts:50</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae78cbe2e07f699217c7488237bdb79850173273" datatype="html">
         <source>Dates</source>
-      </segment>
-    </unit>
-    <unit id="2441730191018504834">
-      <notes>
-        <note category="location">app/app.component.ts:17</note>
-        <note category="location">app/app.component.ts:64</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2eb6671f8d1299f1c00e65bcd5f2fe5d321b2095" datatype="html">
         <source>Numbers</source>
-      </segment>
-    </unit>
-    <unit id="2981199509539433202">
-      <notes>
-        <note category="location">app/app.component.ts:18</note>
-        <note category="location">app/app.component.ts:92</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7d102c62fa0e217415c47142bb0408b1ae3f8dff" datatype="html">
         <source>Percentages</source>
-      </segment>
-    </unit>
-    <unit id="8298612418414367990">
-      <notes>
-        <note category="location">app/app.component.ts:19</note>
-        <note category="location">app/app.component.ts:78</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4056a76e7a710ab32285892a58d66f2d1a927796" datatype="html">
         <source>Currencies</source>
-      </segment>
-    </unit>
-    <unit id="7286240338396968119">
-      <notes>
-        <note category="location">app/app.component.ts:21</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="baa8b6529af50b0d0fabcbce80bb0f601b09d960" datatype="html">
         <source>You are also able to handle e.g. plurals or genders in the ICU format.</source>
-      </segment>
-    </unit>
-    <unit id="2056631932006399349">
-      <notes>
-        <note category="location">app/app.component.ts:30</note>
-      </notes>
-      <segment>
-        <source>Hi, <ph id="0" equiv="INTERPOLATION" disp="{{userName}}"/></source>
-      </segment>
-    </unit>
-    <unit id="7485225664468696657">
-      <notes>
-        <note category="location">app/app.component.ts:31,33</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5adddeb0ec1a9dab52b63baace1fac162e42dba7" datatype="html">
+        <source>Hi, <x id="INTERPOLATION" equiv-text="{{userName}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="539fcc12a3d9d2f7f2f62e8139223f873730767c" datatype="html">
         <source>
-          Since your last registration on <ph id="0" equiv="INTERPOLATION" disp="{{now | date:&apos;shortDate&apos;}}"/>, <ph id="1" equiv="INTERPOLATION_1" disp="{{minutes}}"/> new articles have been published.
+          Since your last registration on <x id="INTERPOLATION" equiv-text="{{now | date:&apos;shortDate&apos;}}"/>, <x id="INTERPOLATION_1" equiv-text="{{minutes}}"/> new articles have been published.
         </source>
-      </segment>
-    </unit>
-    <unit id="1608265421710498494">
-      <notes>
-        <note category="location">app/app.component.ts:39</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a06137e7552212a46c87b2fec98e5f0521a54fe" datatype="html">
         <source>Show warning</source>
-      </segment>
-    </unit>
-    <unit id="1241601933561969840">
-      <notes>
-        <note category="location">app/app.component.ts:106</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="582d61f2b07f5343dd45b9b69e0bf8d501507b40" datatype="html">
         <source>Plurals</source>
-      </segment>
-    </unit>
-    <unit id="7588173386937377936">
-      <notes>
-        <note category="location">app/app.component.ts:108</note>
-      </notes>
-      <segment>
-        <source>Updated <ph id="0" equiv="ICU" disp="{ minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
-      </segment>
-    </unit>
-    <unit id="4955505026013922830">
-      <notes>
-        <note category="location">app/app.component.ts:108</note>
-      </notes>
-      <segment>
-        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<ph id="0" equiv="INTERPOLATION" disp="{{minutes}}"/> minutes ago } }</source>
-      </segment>
-    </unit>
-    <unit id="3341620386068751829">
-      <notes>
-        <note category="location">app/app.component.ts:111</note>
-      </notes>
-      <segment>
-        <source>minutes: <ph id="0" equiv="INTERPOLATION" disp="{{ minutes }}"/></source>
-      </segment>
-    </unit>
-    <unit id="9090585929284576114">
-      <notes>
-        <note category="location">app/app.component.ts:117</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1680b2090516bc3f42c183398464faa1584942cd" datatype="html">
+        <source>Updated <x id="ICU" equiv-text="{ minutes, plural, =0 {...} =1 {...} other {...}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="341ef4dc1986d94fb27ab5b8fa6fd322d1850c05" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {just now} =1 {one minute ago} other {<x id="INTERPOLATION" equiv-text="{{minutes}}"/> minutes ago } }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc72650021150e2af23c2c91b6e3617460597c87" datatype="html">
+        <source>minutes: <x id="INTERPOLATION" equiv-text="{{ minutes }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9bc672f987ca89be23584a3a4cd3d9a3c56d31d7" datatype="html">
         <source>Alternative texts</source>
-      </segment>
-    </unit>
-    <unit id="6832649236577346393">
-      <notes>
-        <note category="location">app/app.component.ts:119</note>
-      </notes>
-      <segment>
-        <source>The author is <ph id="0" equiv="ICU" disp="{gender, select, m {...} f {...} o {...}}"/></source>
-      </segment>
-    </unit>
-    <unit id="9131825302281938693">
-      <notes>
-        <note category="location">app/app.component.ts:119</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52515023fc70c216ef291086c1962ff135a9fe13" datatype="html">
+        <source>The author is <x id="ICU" equiv-text="{gender, select, m {...} f {...} o {...}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4e6fd3f2bb3477e8ad2088f03257f6e1b8b515a5" datatype="html">
         <source>{VAR_SELECT, select, m {male} f {female} o {other} }</source>
-      </segment>
-    </unit>
-    <unit id="5667840900782067941">
-      <notes>
-        <note category="location">app/app.component.ts:121</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18f3bafdc69b800737e303bc1cb0753bd9dd3f32" datatype="html">
         <source>Female</source>
-      </segment>
-    </unit>
-    <unit id="8012344910054029733">
-      <notes>
-        <note category="location">app/app.component.ts:122</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="097b5dfee5665aa0f7daba8b696acecde6445474" datatype="html">
         <source>Male</source>
-      </segment>
-    </unit>
-    <unit id="8693603235657020323">
-      <notes>
-        <note category="location">app/app.component.ts:123</note>
-      </notes>
-      <segment>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c2a9de3714f5767b174d0424bc8abe2dc37acc41" datatype="html">
         <source>Other</source>
-      </segment>
-    </unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.ts</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+    </body>
   </file>
 </xliff>
