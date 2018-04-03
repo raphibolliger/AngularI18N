@@ -61,8 +61,12 @@ ng build --aot --i18nFile=src/locale/messages.de.xlf --i18nFormat=xlf --locale=d
 It is possible to build your app with the same language files for different locales.  
 You could build e.g. a `de-DE`, `de-CH` and `de-AT` version with the same language file.
 
-`--aot` marks the build as AOT (Ahed of Time). It's also possible to build your application as JIT (Just in Time), then it will be builded in the browser before bootstrapping.
+`--aot` marks the build as AOT (Ahed of time).
+It's also possible to build your application as JIT (Just in time) the brower will build the application before bootstrap.
 If you will use i18n translation with JIT compilation you have to define some additional imports and options in `app.module.ts`.
+
+### Serve while development
+tbd
 
 ## Deploy
 
