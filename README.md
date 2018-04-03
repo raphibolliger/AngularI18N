@@ -37,18 +37,27 @@ There is no need for a naming convention, you have to specify each file for a bu
 ## Build app with language file and location
 Build your app separatly for each language.  
 Use the following CLI command to build your app in the base language and locale (en-US)
-`
+```
 ng build --aot --op dist/en
-`
+```
 
 Use the following CLI command to build your app in a specific language and locale
-`
+```
 ng build --aot --i18nFile=src/locale/messages.de.xlf --i18nFormat=xlf --locale=de-CH --op dist/de
-`
+```
 
 It is possible to build your app with the same language files for different locales.
-For example you could build a de-CH and a de-DE version with the same language file.
+For example you could build a `de-DE`, `de-CH` and `de-AT` version with the same language file.
 
 `--aot` marks the build as AOT (Ahed of Time). It's also possible to build your application as JIT (Just in Time), then it will be builded in the browser before bootstrapping.
 If you will use i18n translation with JIT compilation you have to define some additional imports and options in `app.module.ts`.
 
+## Deploy
+
+You need a routing or redirecting logic on your server to serve the right langauge version of your app.
+
+The live demo use diffrent sub-direcotries to serve a diffrente langauge.
+
+# Documentation and help
+A complete guide for i18n can be found at the official angular documentation  
+https://angular.io/guide/i18n
