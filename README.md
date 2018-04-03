@@ -32,7 +32,6 @@ Detailed information of all pipes are available at the official angular document
 - Percentages: https://angular.io/api/common/PercentPipe
 - Currencies: https://angular.io/api/common/CurrencyPipe
 
-
 ## Extract translation file
 Use the CLI command
 ```
