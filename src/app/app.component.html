@@ -19,17 +19,27 @@
         <li i18n>Percentages</li>
         <li i18n>Currencies</li>
       </ul>
-      <p i18n>You are also able to handle plural forms of words and alternative texts of images and other html components.</p>
+      <p class="card-text" i18n>You are also able to handle plural forms of words and alternative texts of images and other html components.</p>
     </div>
   </div>
 
   <hr>
 
-  <div class="card">
-    <div class="card-body">
-      <p class="card-text" i18n>
-        Since your last registration on {{now | date:'shortDate'}}, {{minutes}} new articles have been published.
-      </p>
+  <div class="card-group">
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text" i18n>Hi, {{userName}}</p>
+        <p class="card-text" i18n>
+          Since your last registration on {{now | date:'shortDate'}}, {{minutes}} new articles have been published.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text text-center">
+          <button class="btn btn-large btn-danger" (click)="showWarning()" i18n>Show warning</button>
+        </p>
+      </div>
     </div>
   </div>
 
@@ -40,13 +50,13 @@
       <div class="card-body">
         <h5 class="card-title" i18n>Dates</h5>
         <p class="card-text">
-          <small>{{ now | date:'fullDate' }}</small>
+          {{ now | date:'fullDate' }}
         </p>
         <p class="card-text">
-          <small>{{ now | date:'longDate' }}</small>
+          {{ now | date:'longDate' }}
         </p>
         <p class="card-text">
-          <small>{{ now | date:'short' }}</small>
+          {{ now | date:'short' }}
         </p>
       </div>
     </div>
@@ -68,10 +78,10 @@
       <div class="card-body">
         <h5 class="card-title" i18n>Currencies</h5>
         <p class="card-text">
-          <small>{{ 1000000 | currency }}</small>
+          {{ 1000000 | currency }}
         </p>
         <p class="card-text">
-          <small>{{ 100.15 | currency }}</small>
+          {{ 100.15 | currency }}
         </p>
       </div>
     </div>
@@ -82,13 +92,13 @@
       <div class="card-body">
         <h5 class="card-title" i18n>Percentages</h5>
         <p class="card-text">
-          <small>{{ 1.2 | percent }}</small>
+          {{ 1.2 | percent }}
         </p>
         <p class="card-text">
-          <small>{{ 0.034532 | percent:'0.2-2' }}</small>
+          {{ 0.034532 | percent:'0.2-2' }}
         </p>
         <p class="card-text">
-          <small>{{ 0.00011255 | percent:'0.3-5' }}</small>
+          {{ 0.00011255 | percent:'0.3-5' }}
         </p>
       </div>
     </div>
@@ -107,7 +117,7 @@
       <div class="card-body">
         <h5 class="card-title" i18n>Alternative texts</h5>
         <p class="card-text">
-            <span i18n>The author is {gender, select, m {male} f {female} o {other}}</span>
+          <span i18n>The author is {gender, select, m {male} f {female} o {other}}</span>
         </p>
         <button class="btn btn-sm btn-primary" (click)="gender = 'f'" i18n>Female</button>
         <button class="btn btn-sm btn-primary" (click)="gender = 'm'" i18n>Male</button>
