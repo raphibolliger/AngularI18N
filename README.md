@@ -11,7 +11,7 @@ Visit the live demo at https://raphibolliger.github.io/AngularI18N/
 
 ## Mark elements use pipes
 
-Place the angular i18n attribute on every element wich should be translated.
+Place the angular i18n attribute on every element which should be translated.
 ```html
 <h5 class="card-title" i18n>Angular i18n localization</h5>
 ```
